@@ -1,4 +1,4 @@
-# Android Wear Stopwatch App - PallaviAssignment1
+# Android Wear Stopwatch App
 
 ## Overview
 This Android Wear application implements a stopwatch functionality using the **bonus 2-button design**:
