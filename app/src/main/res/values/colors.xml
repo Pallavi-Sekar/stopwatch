@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background colors -->
+    <color name="background_black">#000000</color>
+    
+    <!-- Text colors -->
+    <color name="text_white">#FFFFFF</color>
+    
+    <!-- Button colors -->
+    <color name="button_start_green">#4CAF50</color>
+    <color name="button_stop_red">#F44336</color>
+    <color name="button_reset_orange">#FF9800</color>
+    
+    <!-- Button disabled colors -->
+    <color name="button_disabled_gray">#666666</color>
+</resources>

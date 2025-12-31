@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_black"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding">
+
+    <!-- Stopwatch Title -->
+    <TextView
+        android:id="@+id/timerDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stopwatch_title"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/medium_margin" />
+
+    <!-- Time Display -->
+    <TextView
+        android:id="@+id/timeDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_format"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/timer_text_size"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/large_margin" />
+
+    <!-- Two-Button Layout (Bonus Feature) -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- Start/Stop Toggle Button -->
+
+        <!-- Reset Button -->
+        <Button
+            android:id="@+id/startStopButton"
+            android:layout_width="68dp"
+            android:layout_height="29dp"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@color/button_start_green"
+            android:text="@string/start_button"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/button_text_size" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="58dp"
+            android:layout_height="32dp"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@color/button_reset_orange"
+            android:text="@string/reset_button"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/button_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>
